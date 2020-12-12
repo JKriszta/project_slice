@@ -52,9 +52,9 @@ function _load (){
 		 //	console.log("delete Button was clicked");
 			//console.log(e.target.parentElement);
 			e.target.parentElement.remove();
-		
-
 		}
+
+		
 		for (let index = 0; index < deleteButtons.length; index++) {
 			deleteButtons[index].addEventListener("click", deleteItem); //()? miért nem? felülírnánk vmit
 			
